@@ -12,8 +12,8 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 ### Group Member 1: Your name here
-### Group Member 2:
-### Group Member 3:
+### Group Member 2: Your name here
+### Group Member 3: Your name here
 
 
 
