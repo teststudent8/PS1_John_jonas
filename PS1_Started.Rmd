@@ -11,7 +11,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-### Group Member 1:
+### Group Member 1: Your name here
 ### Group Member 2:
 ### Group Member 3:
 
@@ -40,13 +40,14 @@ You can use the terminal window to navigate through the folders in your computer
 
 ### Project Setup
 
-On GitHub, generate a project repository for your group for this assignment by cloning the repository from my GitHub account and naming it `name1_name2_name3` where the usernames are the first names of your groupmembers. This repository includes the R-Markdown file you will use to complete the assignment. 
+On GitHub, generate a project repository for your group for this assignment by cloning the MQE_PS1 repository from my GitHub account and naming it `PS1_name1_name2_name3` where the usernames are the first names of your groupmembers. This repository includes this R-Markdown file you will use to complete the assignment. 
 
 So that you can work on your individual machines without having to be online, each group member should:
 
 1) Make an empty folder named, for example, PS1_GS where you will put the files you are going to pull off GitHub (preferably in Dropbox or someplace where it will be backed up).
 
 2) Open your command terminal (or Git Bash on Windows).
+
 3) Navigate via your command terminal to the new folder by typing 
 
 `$ cd /c/Users/ *******/Dropbox/PS1_GS`
@@ -59,24 +60,24 @@ Note: the directory path will be different for you! To easily get your directory
 
 `$ pwd`
 
-and you should secde the directory path to the folder you want to be using.
+and you should see the directory path to the folder you want to be using.
 
-5) go to github.com/name1_name2_name3/your_group_project and click on the "Clone or Download" button. In the terminal type `git clone` and copy the url it gives you. Paste it as follows:
+5) One group member who will 'host' the assignment should clone the MQE_PS1 folder from my github account into their github site and rename it as PS1_name1_name2_name3. The host and the other group members can then clone you homework project file onto your local machines as follows: In the terminal type `git clone` and copy the url it gives you
 
-`$ git clone github.com/name1_name2_name3/your_group_project.git `
+`$ git clone github.com/hostuserid/PS1_name1_name2_name3.git `
 
  Notice, the url is just the web address with .git added to the end. 
  
 You should now find that the folder you created has a copy of the group's R-Markdown file. 
 
-Open the file in RStudio and click on the `Knit` (to html) button. You should see the incomplete assignment displayed in an html window. You can now make edits to this document. 
+Open the file in RStudio and click on the `Knit` button. You should see the incomplete assignment displayed in an html window. You can now make edits to this document. 
 
 **TO DO: Start by adding your name as group member at the top of the document.** 
 
 Once you have made changes to the assignment file and saved them, and viewed them by clicking `Knit` (which will generate the updated html file), you may want to share these changes with your group mates. 
 
 1) Go to the terminal window and navigate to your cloned directory by typing 
-`$ cd /c/Users/ *******/Dropbox/PS1_GS/your_group_project`
+`$ cd /c/Users/ *******/Dropbox/MQE_CI/PS1_name1_name2_name3`
 
 2) Check the status of your edits. Type 
 `$git status`
@@ -100,7 +101,7 @@ Make sure you set these to your github user name and the email you used to sign 
 
 ******************
 
-4) Now that GitHub knows who to attribute edits to, you can commit the modified files. Type the following:
+4) Now that GitHub knows who to attribute edits to, you can commit the modified files. Type
 
 `$ git commit -a -m "Jane Doe's changes"`
 
@@ -116,7 +117,7 @@ you will see that the files you changed are ready to be pushed to github so that
 
 which basically tells git to push your changes from your remote "origin" computer to the "master" branch on github. 
 
-6) You can now look at your repository and check that the edits you made appear in .Rmd file and the .html file. Because others in your group may have made changes as well, GitHub may prompt you to merge changes and fix any conflicting lines.
+6) You can now look at your repository on github and check that the edits you made appear in .Rmd file and the .html file. Because others in your group may have made changes as well, GitHub may prompt you to merge changes and fix any conflicting lines.
 
 7) If you want to view the rendered html online, open the .html file and add https://htmlpreview.github.io/? at the begining of the web address in your browsed bar (example: https://htmlpreview.github.io/?https://github.com/claireduq/MQEPS/blob/master/PS1/PS1_OVB.html.) 
 
@@ -127,24 +128,7 @@ When there are changes on in the GitHub repository that you want reflected on yo
 
 `$git pull`
 
-**Now you are set up to work cooperatively on an assignment using GitHub. The remainder of this assignment consists of:**
-
-- Using Github to suggest an edit to my lecture note, slides, or problem set. 
-
-- a simple coding and plotting exercise to practice collaborating with Github.
-
-# Suggest an edit (Each person should submit one of these)
-
-1) Find a typo, edit, or improvement in the lecture notes, slides or problem set that you would like to correct (this could be correcting a spelling mistake, adding titles or labels to a graph or table, or clarifying an explanation).
-
-2) Clone the course Github repository into a folder on your computer. 
-
-3) Because some of the data files are large, some data files are zipped on the github page. Unzip these and place them in the cloned folder (you will need to do this if you wish to compile any of the files that call upon these datasets). Do not remove the zipped file.
-
-4) Make the edits and push your edits to the course repository.
-
-5) I will review your edits and integrate them into my materials. 
-
+**Now you are set up to work cooperatively on an assignment using GitHub. The remainder of this assignment consists of a simple coding and plotting exercise to practice collaborating with Github.**
 
 # Omitted Variable Bias Simulation (Group excercise)
 
